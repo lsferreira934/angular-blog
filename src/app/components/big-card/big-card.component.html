@@ -1,6 +1,10 @@
 <div class="container__big-card">
   <div class="big-card__header">
-    <app-avatar></app-avatar>
+    <app-avatar
+      avatar="https://img.freepik.com/fotos-gratis/feliz-bonito-mulher-jovem-posar-camera-em-parque-cidade_1262-19158.jpg?w=826&t=st=1707266821~exp=1707267421~hmac=84a16631305d064f20cb3c76529d498e5c0511cbf0ed89066655e4ecd1a6b490"
+      data="12/02/24"
+      name="Fernanda"
+      ></app-avatar>
     <svg
       class="heart-icon"
       xmlns="http://www.w3.org/2000/svg"
@@ -15,23 +19,14 @@
     </svg>
   </div>
   <div class="big-card__photo">
-    <img
-      src="https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg"
-      alt=""
-    />
-    <small></small>
+    <img src="{{ photoCover }}" alt="{{ title }}" />
   </div>
   <div class="big-card__title">
-    <h1>Saiu a nova versão do angular</h1>
+    <h1>{{ title }}</h1>
   </div>
   <div class="big-card__description">
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, provident
-      repudiandae quam facere suscipit obcaecati tempore voluptas fuga nesciunt
-      in quod temporibus blanditiis ipsam harum fugiat quas excepturi labore.
-      Facilis, adipisci! Quasi amet, pariatur dolores blanditiis enim ab id
-      assumenda, vero, voluptatum laboriosam ipsam dolor expedita molestias
-      perspiciatis modi incidunt.
+      {{ description }}
     </p>
   </div>
 </div>

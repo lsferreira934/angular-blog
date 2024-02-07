@@ -1,12 +1,9 @@
 <div class="container__avatar">
-  <div class="avatar">
-    <img
-      src="https://img.freepik.com/fotos-gratis/feliz-bonito-mulher-jovem-posar-camera-em-parque-cidade_1262-19158.jpg?w=826&t=st=1707266821~exp=1707267421~hmac=84a16631305d064f20cb3c76529d498e5c0511cbf0ed89066655e4ecd1a6b490"
-      alt=""
-    />
+  <div [ngClass]="{ 'avatar-small': isSmall, avatar: !isSmall }">
+    <img src="{{ avatar }}" alt="{{ name }}" />
   </div>
-  <div class="publisher">
-    <small>Publicado 12/02/24</small>
-    <span class="publisher__name">Fernanda</span>
+  <div [ngClass]="{ 'publisher-small': isSmall, publisher: !isSmall }">
+    <small>Publicado {{ data }}</small>
+    <span class="publisher__name">{{ name }}</span>
   </div>
 </div>

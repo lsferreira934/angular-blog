@@ -9,7 +9,7 @@ import { BigCardComponent } from './components/big-card/big-card.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AvatarComponent } from './components/avatar/avatar.component';
-import { AvatarSmallComponent } from './components/avatar-small/avatar-small.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +20,6 @@ import { AvatarSmallComponent } from './components/avatar-small/avatar-small.com
     SmallCardComponent,
     HomeComponent,
     AvatarComponent,
-    AvatarSmallComponent
   ],
   imports: [
     BrowserModule,
