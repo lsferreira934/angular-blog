@@ -3,7 +3,6 @@
   justify-content: flex-start;
   border-bottom: solid 1px gray;
   flex-direction: row;
-  max-width: 400px;
   padding: 0.5rem;
   width: 100%;
 }

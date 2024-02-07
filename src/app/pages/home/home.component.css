@@ -28,7 +28,7 @@
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .container__articles {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }
 

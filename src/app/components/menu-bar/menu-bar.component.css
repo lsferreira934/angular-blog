@@ -1,0 +1,23 @@
+.container__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  max-width: 1640px;
+  margin: 0 auto;
+  font-family: "Segoe UI", "Tahoma", "Geneva", "Verdana", "sans-serif";
+}
+
+.navbar__left {
+  font-weight: bold;
+}
+
+.navbar__right a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.navbar__right a:hover {
+  text-decoration: underline;
+}
