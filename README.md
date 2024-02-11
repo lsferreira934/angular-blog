@@ -37,7 +37,7 @@
 
 ## [](https://github.com/lsferreira934/angular-blog#--sobre-o-projeto) 💻 Sobre o projeto
 
-Projeto feito do zero para treino da tecnologia Angular, site simples para blog para aplicação de conceitos do framework.
+Desenvolvi um projeto do zero para praticar e explorar a tecnologia Angular, criando um site simples de blog. Esta iniciativa permitiu aplicar e consolidar conceitos fundamentais do framework em um contexto prático e real.
 ---
 
 ## [](https://github.com/lsferreira934/angular-blog#-%EF%B8%8F-funcionalidades) ⚙️ Funcionalidades
